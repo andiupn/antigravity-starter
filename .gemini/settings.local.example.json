@@ -1,0 +1,59 @@
+{
+  "_readme": [
+    "Salin file ini ke settings.local.json (tanpa .example) dan sesuaikan dengan OS/setup Anda.",
+    "File settings.local.json bersifat git-ignored — jangan commit credentials atau path personal ke repositori."
+  ],
+
+  "_security_notes": [
+    "JANGAN gunakan wildcard runtime longgar seperti: Bash(python3 *), Bash(node *), Bash(npm *)",
+    "GUNAKAN scope sempit untuk keamanan maksimal AI Agent Anda."
+  ],
+
+  "permissions_LINUX": {
+    "allow": [
+      "Read(./**)",
+      "Read(~/.gemini/**)",
+      "Read(/tmp/**)",
+
+      "Bash(git *)",
+      "Bash(npm run lint)",
+      "Bash(npm run test)",
+      "Bash(npm run build)",
+      "Bash(npx *)",
+
+      "Write(./**)",
+      "Edit(./**)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)"
+    ],
+    "additionalDirectories": [
+      "~/.gemini"
+    ]
+  },
+
+  "permissions_WINDOWS": {
+    "allow": [
+      "Read(./**)",
+      "Read(~/.gemini/**)",
+
+      "Bash(git *)",
+      "Bash(npm run lint)",
+      "Bash(npm run test)",
+      "Bash(npm run build)",
+      "Bash(npx *)",
+      "Bash(powershell *)",
+
+      "Write(./**)",
+      "Edit(./**)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)"
+    ],
+    "additionalDirectories": [
+      "~/.gemini"
+    ]
+  }
+}

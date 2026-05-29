@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(docker *)",
+      "Bash(powershell *)",
+      "Bash(curl -s *)",
+      "Bash(uname -a)",
+      "Bash(ps aux)",
+      "Bash(df -h)",
+      "Bash(free -h)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(sudo *)"
+    ],
+    "ask": []
+  }
+}

@@ -1,0 +1,21 @@
+# Knowledge wiki — excluded agar tidak flood context saat code review
+# Akses manual via Read jika butuh entry spesifik
+.gemini/wiki/
+
+# Memory dan logs
+.gemini/memory/
+.gemini/activity.txt
+.gemini/session-log.txt
+
+# Research & Plans archive — riset/plan lama, akses manual jika butuh
+docs/research/_archive/
+docs/plans/_archive/
+
+# Binary dan build artifacts
+*.pyc
+__pycache__/
+node_modules/
+.venv/
+dist/
+build/
+*.log

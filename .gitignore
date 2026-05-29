@@ -1,0 +1,80 @@
+# ============================================================================
+# IDE & Editor
+# ============================================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# ============================================================================
+# Next.js & Web (Standard 2026)
+# ============================================================================
+node_modules/
+.next/
+out/
+build/
+dist/
+.open-next/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.npm
+.pnpm-store
+
+# ============================================================================
+# Database (Drizzle & Turso)
+# ============================================================================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+drizzle/migrations/_metadata
+
+# ============================================================================
+# Python & Environment
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.env
+.env.*
+!.env.example
+
+# ============================================================================
+# Antigravity Workspace Specific
+# ============================================================================
+# Gemini / Antigravity IDE specific
+.gemini/settings.local.json
+.gemini/memory/
+.gemini/scheduled_tasks.lock
+.mcp_history
+.ai_activity.log
+
+# ============================================================================
+# Test/diagnostic artefacts
+# ============================================================================
+**/screenshot-*.png
+**/tsc_output.txt
+**/test-output.txt
+
+# SQL dumps (anywhere)
+*.sql
+!**/drizzle/**/*.sql
+!**/migrations/**/*.sql
+!**/migration/**/*.sql
+
+# Stray files from mis-parsed CLI flags running at repo root
+/--db
+/--help
