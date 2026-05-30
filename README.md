@@ -1,8 +1,13 @@
 # Antigravity Starter 🚀
 
-Selamat datang di **Antigravity Starter**, sebuah templat repositori terstruktur untuk proyek tunggal (Single-Project) yang dirancang khusus untuk pemula, penghobi, dan pengembang solo (*solo developer*). Templat ini dikonfigurasi secara optimal untuk berkolaborasi dengan asisten pemrograman kecerdasan buatan (AI Agent) secara presisi, produktif, dan aman.
+**Template starter ringan dan ramah AI untuk proyek tunggal (Single-Project).**
 
-Menggunakan kombinasi terbaik teknologi modern 2026, repositori ini membantu Anda mewujudkan ide dari nol menjadi aplikasi fungsional dalam waktu singkat.
+> 📦 Free template by **andiupn** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)
+> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need more features? Try [PRO version](https://kuncimu.com)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support-ff5f5f?logo=ko-fi)](https://ko-fi.com/andiupn)
+[![Patreon](https://img.shields.io/badge/Patreon-Support-f96854?logo=patreon)](https://patreon.com/AndiUpn)
 
 ---
 
@@ -13,6 +18,20 @@ Menggunakan kombinasi terbaik teknologi modern 2026, repositori ini membantu And
 - **Workflow Automation:** Dilengkapi dengan 8 otomasi alur kerja reusable (`/skill-name`) di `.gemini/skills/`.
 - **Structured Documentation:** Memiliki folder `docs/` terstandarisasi untuk mendokumentasikan riset (`docs/research/`) dan rencana implementasi (`docs/plans/`).
 - **Standard Web 2026 Stack Ready:** Konfigurasi bawaan untuk Next.js 16 + React 19 + TypeScript + Tailwind v4 + Drizzle ORM.
+
+---
+
+## 📊 LITE vs PRO Comparison
+
+| Fitur | 🆓 LITE (Gratis) | 💎 PRO (Berbayar) |
+|---|:---:|:---:|
+| **Specialized Agents** | 2 | 5 (+ planner, architecture, security) |
+| **Workflow Skills** | 8 | 23 (+ Drizzle sync, Docker, rules-audit, dll.) |
+| **Struktur Workspace** | Simple (`src/`, `docs/`) | Status-first Monorepo (`active/`, `staging/`, dsb.) |
+| **Ops Ready Config** | ❌ | ✅ (Docker Compose, Caddyfile) |
+| **Project Presets** | 1 (Next.js) | 4 (Next App, SPA, Laravel, Flutter) |
+
+👉 **[Lihat Perbandingan Fitur Lengkap & Cara Upgrade](COMPARISON.md)**
 
 ---
 
