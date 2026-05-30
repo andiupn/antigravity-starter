@@ -1,4 +1,11 @@
 # Antigravity Starter — Panduan Pengodean & Workspace
+<!--
+  Scaffolded by Andi UPN (https://github.com/andiupn)
+  Official Website & Support: https://kuncimu.com
+  Licensed under MIT License
+-->
+
+> 📦 Free Template by **Andi UPN** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)
 
 Workspace terstruktur untuk proyek tunggal (Single-Project) yang dioptimalkan untuk pemula, hobi, dan pengembang solo (*solo developer*) yang berkolaborasi dengan Asisten AI.
 
