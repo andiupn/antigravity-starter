@@ -1,4 +1,4 @@
-# Antigravity Starter 🚀
+# Antigravity Starter 🛰️
 
 <div align="center">
   <strong>English</strong> | <a href="README.id.md">Bahasa Indonesia</a>
@@ -6,10 +6,15 @@
 
 <br />
 
-**A lightweight, AI-friendly starter template for single-project workspaces.**
+<div align="center">
+  <h3><strong>AI Agents are incredibly smart. But they are blind in a messy workspace.</strong></h3>
+  <p><strong>Antigravity Starter is a pristine, AI-first Next.js 16 sandbox that gives your AI editors perfect vision.</strong></p>
+
+  <p>Stop wasting tokens, suffering from AI hallucinations, and struggling with messy folder structures. Coding with AI should feel like magic—and now it does.</p>
+</div>
 
 > 📦 Free template by **andiupn** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)  
-> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need more features? Try the [PRO version](https://kuncimu.com)
+> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need status-first multi-project monorepos? Try the [PRO version](https://kuncimu.com)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/andiupn/antigravity-starter)](https://github.com/andiupn/antigravity-starter/releases)
@@ -20,19 +25,29 @@
 
 ---
 
-## 🌟 Key Features
-
-- **AI-First Design:** Repository structure optimized to be read, understood, and managed by AI Agents (such as Gemini, Cursor, etc.).
-- **Specialized Agents:** Equipped with 2 basic specialized AI agents (`code-reviewer` and `research-assistant`) in `.gemini/agents/`.
-- **Workflow Automation:** Includes 8 reusable automation workflows (`/skill-name`) in `.gemini/skills/`.
-- **Structured Documentation:** Standardized `docs/` folder for documenting research (`docs/research/`) and implementation plans (`docs/plans/`).
-- **Standard Web 2026 Stack Ready:** Pre-configured configurations for Next.js 16 + React 19 + TypeScript + Tailwind CSS v4 + Drizzle ORM.
+## 💡 The Problem: Why Traditional Workspaces Fail AI
+AI Agents (Cursor, Gemini, Claude) are phenomenally capable. But when dropped into standard, cluttered directories, they get lost. They read irrelevant folders, blow through your token budget, hallucinate, and place files in the wrong directories because there are no clear boundaries.
 
 ---
 
-## 📊 LITE vs PRO Comparison
+## ⚡ The Solution: Three Pillars of Premium AI Scaffolding
 
-| Feature | 🆓 LITE (Free) | 💎 PRO (Paid) |
+### 1. 🛰️ Perfect Vision for AI (AI-First Layout)
+We designed every folder, config, and `.gitignore` rule to act as roadmaps for your AI. The workspace is extremely clean, allowing Cursor or Gemini to understand your entire **Next.js 16 + React 19 + Tailwind v4** architecture in less than 3 seconds. Zero wasted tokens, maximum accuracy.
+
+### 2. 🤖 Specialized Team, Not a Generic Chatbot
+You don't talk to a blank AI box. You get a team of 2 pre-configured, highly specialized, and autonomous AI agents:
+- **`@code-reviewer`** — Your rigorous, strict QA team that reviews code quality, lints, and structure before commits.
+- **`@research-assistant`** — A high-speed, cost-effective research agent tailored to explore new API docs and libraries safely.
+
+### 3. ⚡ One-Click Skills (Workflows)
+Execute complex development workflows with simple commands. Equipped with 8 reusable automation workflows (`/skills`) that turn manual scaffolding, environment checking, and test writing into a 1-second task.
+
+---
+
+## 📊 LITE vs PRO: The Premium Upgrade
+
+| What You Can Do | 🆓 LITE (Free) | 💎 PRO (Paid) |
 |---|:---:|:---:|
 | **Specialized Agents** | 2 | 5 (+ planner, architecture, security) |
 | **Workflow Skills** | 8 | 23 (+ Drizzle sync, Docker, rules-audit, etc.) |
@@ -44,12 +59,12 @@
 
 ---
 
-## 📂 Repository Structure
+## 📂 Workspace Blueprint
 
 ```
 your-workspace/
   .gemini/             # AI agent configs, automation skills, and wiki
-  docs/                # Place for research and implementation plans
+  docs/                # Pristine research and implementation plans
   src/                 # Main directory for your application source code
   .env.example         # Template for environment variables
   .gitignore           # Standard Git ignore file
@@ -60,39 +75,32 @@ your-workspace/
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Get Started in 3 Steps
 
-### 1. Prerequisites
-Make sure you have installed:
-- Node.js (latest 2025/2026 version recommended)
-- Git for version control
-- Code editor (such as VS Code or Cursor)
-
-### 2. Copy and Setup Environment
-Copy your project environment variables template:
+### 1. Copy configurations:
 ```bash
 cp .env.example .env
 ```
-Open the `.env` file and fill in your GitHub personal access token in the `GITHUB_TOKEN` variable if you want to enable the Model Context Protocol (MCP) for repository integration.
+*(Insert your `GITHUB_TOKEN` to enable repository integrations).*
 
-### 3. Enable AI Agent Permissions
-Copy the local permission configuration template for the AI Agent:
+### 2. Setup AI permissions:
 ```bash
 cp .gemini/settings.local.example.json .gemini/settings.local.json
 ```
-Open `.gemini/settings.local.json`, adapt it to your operating system (Linux/Windows), and change the `"permissions_LINUX"` or `"permissions_WINDOWS"` key to `"permissions"`.
+*(Uncomment and set `permissions` according to your OS).*
+
+### 3. Start Coding:
+Open this workspace in your favorite AI-friendly editor, and experience the speed.
 
 ---
 
 ## 💖 Support This Project (Donations)
 
-If this starter template helps speed up your coding workflow, consider supporting or donating via the following links:
+If this template has accelerated your coding workflow, consider supporting:
 - **Ko-fi:** [ko-fi.com/andiupn](https://ko-fi.com/andiupn)
 - **Patreon:** [patreon.com/AndiUpn](https://patreon.com/AndiUpn)
 - **Trakteer:** [trakteer.id/andi_upn/gift](https://trakteer.id/andi_upn/gift)
 - **Saweria:** [saweria.co/andiupn](https://saweria.co/andiupn)
-
-Your support is highly valued and helps us maintain and improve AI template integrations in the future!
 
 ---
 
