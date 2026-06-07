@@ -14,7 +14,7 @@
 </div>
 
 > 📦 Free template by **andiupn** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)  
-> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need status-first multi-project monorepos? Try the [PRO version](https://kuncimu.com)
+> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need status-first multi-project monorepos? Try the [PRO version](https://github.com/sponsors/andiupn?frequency=monthly)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/andiupn/antigravity-starter)](https://github.com/andiupn/antigravity-starter/releases)
